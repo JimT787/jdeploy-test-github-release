@@ -1,17 +1,17 @@
 {
-  "bin": {"jimjdeploytest": "jdeploy-bundle/jdeploy.js"},
+  "bin": {"dslanalyzer": "jdeploy-bundle/jdeploy.js"},
   "author": "Jim Tatro",
-  "description": "Test of jDeploy using NPM",
+  "description": "App to help UAL ALPA Scheduling Committee Members Review Monthly Schedules",
   "main": "index.js",
   "preferGlobal": true,
-  "repository": "https://github.com/JimT787/jim-jdeploy-test-npm",
-  "version": "1.0.19",
+  "repository": "https://github.com/JimT787/dslanalyzer-releases",
+  "version": "2.5.4",
   "jdeploy": {
     "jdk": false,
     "javaVersion": "17",
-    "jar": "target/JimJdeployTest-1.0.19.jar",
-    "javafx": false,
-    "title": "JimJdeployTest"
+    "jar": "target/modules/dslanalyzer-2.5.4.jar",
+    "javafx": true,
+    "title": "DSLAnalyzer"
   },
   "dependencies": {
     "command-exists-promise": "^2.0.2",
@@ -21,7 +21,7 @@
     "shelljs": "^0.8.4"
   },
   "license": "ISC",
-  "name": "jimjdeploytest",
+  "name": "dslanalyzer",
   "files": ["jdeploy-bundle"],
   "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
 }
