@@ -1,17 +1,17 @@
 {
-  "bin": {"dslanalyzer": "jdeploy-bundle/jdeploy.js"},
+  "bin": {"jDeployIconTest": "jdeploy-bundle/jdeploy.js"},
   "author": "Jim Tatro",
-  "description": "App to help UAL ALPA Scheduling Committee Members Review Monthly Schedules",
+  "description": "Test Icon in public/private repo",
   "main": "index.js",
   "preferGlobal": true,
-  "repository": "https://github.com/JimT787/dslanalyzer-releases",
-  "version": "2.5.4",
+  "repository": "https://github.com/JimT787/jdeploy-test-github-release",
+  "version": "1.0.1",
   "jdeploy": {
     "jdk": false,
     "javaVersion": "17",
-    "jar": "target/modules/dslanalyzer-2.5.4.jar",
+    "jar": "target/JimJdeployTest-1.0.1.jar",
     "javafx": true,
-    "title": "DSLAnalyzer"
+    "title": "jDeployIconTest"
   },
   "dependencies": {
     "command-exists-promise": "^2.0.2",
@@ -21,7 +21,7 @@
     "shelljs": "^0.8.4"
   },
   "license": "ISC",
-  "name": "dslanalyzer",
+  "name": "jdeployicontest",
   "files": ["jdeploy-bundle"],
   "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
 }
